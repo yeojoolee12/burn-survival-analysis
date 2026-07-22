@@ -20,3 +20,5 @@ This repository contains the survival analysis evaluating the effectiveness of a
 * `burn_analysis.Rmd` : R Markdown source code containing analysis and visualization.
 * `burn.csv` : Dataset used for analysis.
 * `index.html` : Rendered HTML report.
+* 
+🔗 **Interactive Web Report:** https://yeojoolee12.github.io/burn-survival-analysis/
