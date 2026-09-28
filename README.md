@@ -1,6 +1,6 @@
 # Evaluation of Bathing Solutions on Time-to-Infection in Burn Patients
 
-This repository contains the survival analysis evaluating the effectiveness of a novel bathing solution compared to standard care in preventing infections among burn patients.
+This repository contains a survival analysis comparing a novel bathing solution with standard care in terms of time to infection among burn patients.
 
 ## 📌 Project Overview
 * **Objective:** To compare time-to-infection between control/standard bathing solutions and a new bathing solution using Kaplan-Meier estimation.
@@ -17,7 +17,7 @@ This repository contains the survival analysis evaluating the effectiveness of a
 * Visualizing infection-free probability over time with risk tables.
 
 ## 📁 Repository Structure
-* `burn_analysis.Rmd` : R Markdown source code containing analysis and visualization.
+* `survival_analysis_Yeojoo2.Rmd` : R Markdown source code containing analysis and visualization.
 * `burn.csv` : Dataset used for analysis.
 * `index.html` : Rendered HTML report.
 * 
