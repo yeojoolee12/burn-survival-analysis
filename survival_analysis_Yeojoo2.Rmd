@@ -1,5 +1,5 @@
 ---
-title: "Evaluation of Bathing Solutions on Time-to-Infection in Burn Patients"
+title: "Comparing a novel bathing solution with standard care in terms of time to infection"
 author: "Yeojoo Lee"
 date: "2026-07-21"
 output: 
@@ -17,11 +17,31 @@ library(survminer)
 library(ggplot2)
 ```
 
-## R Markdown
+## Overview
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This project applies survival analysis to compare a novel bathing solution with standard care in terms of time to infection among burn patients.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+The analysis was completed as part of coursework in biostatistics and demonstrates my experience with R programming and survival analysis methods.
+
+Data
+
+The dataset used in this analysis was provided as part of coursework and is not included in this repository.
+
+Statistical Methods
+
+The primary outcome was time to infection, with infection status recorded as the event indicator.
+
+The analysis includes:
+
+Kaplan-Meier survival curves
+Log-rank test
+Comparison of time-to-infection between treatment groups
+Analysis
+
+The survival distribution was estimated using the Kaplan-Meier method and compared between the two treatment groups.
+
+Results
+Kaplan-Meier Survival Curves
 
 ```{r burn-km-plot}
 # Load Dataset
