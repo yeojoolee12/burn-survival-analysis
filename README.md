@@ -3,7 +3,7 @@
 This repository contains a survival analysis comparing a novel bathing solution with standard care in terms of time to infection among burn patients.
 
 ## 📌 Project Overview
-* **Objective:** To compare time-to-infection between control/standard bathing solutions and a new bathing solution using Kaplan-Meier estimation.
+* **Objective:** To compare time-to-infection between the standard care and novel bathing solution groups using Kaplan-Meier estimation.
 * **Dataset:** `burn.csv`
 * **Primary Endpoint:** Time to infection (`infecttime`) and infection occurrence (`infectevent`).
 
