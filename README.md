@@ -1,4 +1,4 @@
-# Evaluation of Bathing Solutions on Time-to-Infection in Burn Patients
+# Comparing a novel bathing solution with standard care in terms of time to infection
 
 This repository contains a survival analysis comparing a novel bathing solution with standard care in terms of time to infection among burn patients.
 
